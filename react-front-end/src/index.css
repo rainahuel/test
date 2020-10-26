@@ -1,0 +1,61 @@
+ .contenedorPrincipal {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    font-family: monospace;
+    padding: 10px;
+ }
+ 
+ .contenedorPersonajes{
+    width: 20%;
+    height: 30%;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+ }   
+
+
+ .contenedorPersonajes img  {
+    width: 220px;
+    height: auto;
+    box-shadow: 3px 3px 10px 6px #e616cd;
+ }
+
+.contenedorPersonajes img:hover {
+    transform: rotate(10deg);
+
+}
+
+.pPrimero {
+    margin-top: 20px;
+}
+
+
+ .titulo {
+     text-align: center;
+     margin-top: 5%;
+     font-size: 30px;
+     margin-bottom: 2%;
+     box-shadow: 3px 3px 10px 1px #797979;
+ }
+
+ .btnSalir {
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 10%;
+    background: #38ff14;
+    color: black;
+    box-shadow: 1px 3px 7px 1px #fc1313;
+    margin-left: 85%;
+    margin-top: 1%;
+    position: absolute;
+    font-family: monospace;
+ }
+
+ .btnSalir:hover{
+    box-shadow: 1px 3px 30px 1px #fc1313;
+ }
